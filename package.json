@@ -20,6 +20,13 @@
     "express-handlebars": "^3.0.0",
     "hbs": "~4.0.1",
     "ngrok": "^2.2.6",
-    "node-sass-middleware": "0.9.8"
+    "node-sass-middleware": "0.9.8",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "hbs": "~4.0.1",
+    "ngrok": "^2.2.6",
+    "node-sass-middleware": "0.9.8",
+    "tinify": "^1.5.0"
+
   }
 }

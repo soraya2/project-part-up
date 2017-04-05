@@ -7,6 +7,29 @@ var bodyParser = require('body-parser');
 var sassMiddleware = require('node-sass-middleware');
 var compress = require('compression');
 var hbs = require('express-handlebars');
+
+var tinify = require("tinify");
+var key = require("./key");
+
+
+
+tinify.key = key;
+
+// var source = tinify.fromFile('./public/images/home-slides/home-cover.jpg');
+// source.toFile(path.join(__dirname, './public/images/optimized/home-cover.jpg'));
+
+
+
+  // tinify.fromFile('./public/images/home-slides/home-cover.jpg');
+  // tinify.toFile('./public/images/optimized/home-cover-optimized.jpg');
+
+
+
+
+var compressionsThisMonth = tinify.compressionCount;
+
+console.log(compressionsThisMonth, "tinifyCompressions");
+
 var index = require('./routes/index');
 var users = require('./routes/users');
 
