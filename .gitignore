@@ -1,0 +1,27 @@
+# Editors
+.idea/
+.vscode/
+
+# Generated Docs
+docs/jsdocs
+
+# Wercker builds
+_builds/
+_projects/
+_steps/
+
+# Generated build files
+app/public/VERSION
+app-build
+
+
+# Saved pictures
+app/uploads
+app/public/uploads
+
+
+
+node_modules
+npm-debug.log
+.DS_Store
+.env
