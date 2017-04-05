@@ -17608,7 +17608,7 @@ body.bender-animating {
   position: relative;
   height: 85vh;
   width: 100vw;
-  background-image: url("/images/home-cover.jpg");
+  background-image: url("/images/home-slides/home-cover.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
