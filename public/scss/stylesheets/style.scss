@@ -20812,9 +20812,7 @@ body.bender-animating {
 
 .pu-home-header {
   position: relative;
-  height: 85vh;
-  width: 100vw;
-  background-size: cover;
+
   background-position: center;
   text-align: center;
   min-height: 592px;
@@ -21120,7 +21118,7 @@ body.bender-animating {
 }
 
 .pu-home-textblock-secondary .pu-home-textblock__title, .pu-home-textblock-secondary .pu-home-textblock__paragraph {
-  color: #fff;
+  color: #000;
 }
 
 .pu-home-textblock-secondary .pu-home-textblock__title {
@@ -21303,6 +21301,18 @@ body.bender-animating {
   border-bottom: 2px solid #eee;
   background-size: 95%;
   background-position: right bottom;
+}
+
+.ontdek{
+  // background-image: url('/images/home-slides/ontdek.png');
+  background-image: url('/images/home-slides/ontdek.webp');
+}
+
+.agile{
+  background-image: url('/images/home-slides/agile.png');
+}
+.projecten{
+  background-image: url('/images/home-slides/projecten.png');
 }
 
 .pu-home-carousel__image--is-active {
