@@ -6,11 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var sassMiddleware = require('node-sass-middleware');
 var tinify = require("tinify");
-var key = require("./key");
+// var key = require("./key");
 
 
 
-tinify.key = key;
+// tinify.key = key;
 
 // var source = tinify.fromFile('./public/images/home-slides/home-cover.jpg');
 // source.toFile(path.join(__dirname, './public/images/optimized/home-cover.jpg'));
