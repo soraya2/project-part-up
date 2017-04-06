@@ -9,11 +9,11 @@ var compress = require('compression');
 var hbs = require('express-handlebars');
 
 var tinify = require("tinify");
-var key = require("./key");
+// var key = require("./key");
 
 
 
-tinify.key = key;
+// tinify.key = key;
 
 // var source = tinify.fromFile('./public/images/home-slides/home-cover.jpg');
 // source.toFile(path.join(__dirname, './public/images/optimized/home-cover.jpg'));
