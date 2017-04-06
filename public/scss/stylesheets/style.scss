@@ -20812,7 +20812,9 @@ body.bender-animating {
 
 .pu-home-header {
   position: relative;
-
+  height: 85vh;
+  width: 100vw;
+  background-size: cover;
   background-position: center;
   text-align: center;
   min-height: 592px;
@@ -21118,7 +21120,7 @@ body.bender-animating {
 }
 
 .pu-home-textblock-secondary .pu-home-textblock__title, .pu-home-textblock-secondary .pu-home-textblock__paragraph {
-  color: #000;
+  color: #fff;
 }
 
 .pu-home-textblock-secondary .pu-home-textblock__title {
@@ -21304,7 +21306,7 @@ body.bender-animating {
 }
 
 .ontdek{
-  // background-image: url('/images/home-slides/ontdek.png');
+  background-image: url('/images/home-slides/ontdek.png');
   background-image: url('/images/home-slides/ontdek.webp');
 }
 
