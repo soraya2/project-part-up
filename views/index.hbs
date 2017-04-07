@@ -186,7 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="pu-home-carousel__slide pu-home-carousel__slide--left" data-carousel-slide="">
+{{!--           <div class="pu-home-carousel__slide pu-home-carousel__slide--left" data-carousel-slide="">
             <div class="pu-home-wrap">
               <div class="pu-home-block pu-home-textblock">
                 <h2 class="pu-home-textblock__title pu-home-subtitle">
@@ -199,8 +199,8 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="pu-home-carousel__slide pu-home-carousel__slide--is-active" data-carousel-slide="">
+          </div> --}}
+          {{!-- <div class="pu-home-carousel__slide pu-home-carousel__slide--is-active" data-carousel-slide="">
             <div class="pu-home-wrap">
               <div class="pu-home-block pu-home-textblock">
                 <h2 class="pu-home-textblock__title pu-home-subtitle">
@@ -213,8 +213,8 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="pu-home-carousel__slide pu-home-carousel__slide--right" data-carousel-slide="">
+          </div> --}}
+{{!--           <div class="pu-home-carousel__slide pu-home-carousel__slide--right" data-carousel-slide="">
             <div class="pu-home-wrap">
               <div class="pu-home-block pu-home-textblock">
                 <h2 class="pu-home-textblock__title pu-home-subtitle">
@@ -227,14 +227,14 @@
                 </p>
               </div>
             </div>
-          </div>
-          <figure class="pu-home-carousel__image ontdek" data-carousel-slide-image="">
+          </div> --}}
+          <figure class="pu-home-carousel__image ontdek lazyload" data-carousel-slide-image="">
           </figure>
-          <figure class="pu-home-carousel__image agile" data-carousel-slide-image="">
+          <figure class="pu-home-carousel__image agile lazyload" data-carousel-slide-image="">
           </figure>
-          <figure class="pu-home-carousel__image pu-home-carousel__image--is-active" data-carousel-slide-image="">
+          <figure class="pu-home-carousel__image pu-home-carousel__image--is-active lazyload" data-carousel-slide-image="">
           </figure>
-          <figure class="pu-home-carousel__image projecten" data-carousel-slide-image="" >
+          <figure class="pu-home-carousel__image projecten lazyload" data-carousel-slide-image="" >
           </figure>
           <div class="pu-home-carousel__buttons">
             <button class="pu-home-carousel__buttons__button" data-carousel-arrow-left="">
@@ -258,10 +258,17 @@
           </ul>
           <div class="pu-home-carousel__appstore-buttons">
             <a class="pu-home-carousel__appstore-buttons__button" href="https://itunes.apple.com/nl/app/part-up/id1113368434?mt=8" target="_blank">
-              <img alt="appstore" src="/images/home-slides/appstore.png"/>
+
+            <img alt="" class= "lazyload" src=""/>
+            <noscript>
+              <img alt="appstore" class= "lazyload" src="/images/home-slides/appstore.png"/>
+            </noscript>
             </a>
             <a class="pu-home-carousel__appstore-buttons__button" href="https://play.google.com/store/apps/details?id=com.partup.app&hl=nl" target="_blank">
+                <img alt="" class= "lazyload" src=""/>
+            <noscript>
               <img alt="playstore" src="/images/home-slides/playstore.png"/>
+            </noscript>
             </a>
           </div>
         </div>
@@ -298,7 +305,7 @@
           </div>
           <div class="pu-home-wrap pu-home-products__tab">
             <div class="pu-home-block">
-              <figure class="pu-home-figure" style="background-image: url('images/home-slides/home-products-solution-1-image.png');">
+              <figure class="pu-home-figure lazyload">
               </figure>
             </div>
             <div class="pu-home-block pu-home-textblock pu-home-products__tab__content">
@@ -318,13 +325,22 @@
               </h3>
               <ul class="pu-home-textblock__horizontal-list pu-list pu-list-horizontal">
                 <li>
-                  <img alt="" src="images/projectpartners/logo-cb-achmea.png"/>
+                  <img class="lazyload"  alt="" src=""/>
+                <noscript>
+                  <img alt="logo-cb-achmea.png" src="images/projectpartners/logo-cb-achmea.png"/>
+                </noscript>
                 </li>
                 <li>
-                  <img alt="" src="images/projectpartners/logo-min-financien.png"/>
+                  <img class="lazyload" alt="" src=""/>
+                <noscript>
+                  <img alt="logo-min-financien.png" src="images/projectpartners/logo-min-financien.png"/>
+                </noscript>
                 </li>
                 <li>
-                  <img alt="" src="images/projectpartners/logo-philadelphia.png"/>
+                  <img class="lazyload" alt="logo-philadelphia" src=""/>
+                <noscript>
+                  <img alt="logo-philadelphia" src="images/projectpartners/logo-philadelphia.png"/>
+                </noscript>
                 </li>
               </ul>
             </div>
@@ -541,4 +557,4 @@
 <noscript>
   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPQ3WW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-<script  async="" src="/javascripts/lazyloading.js" defer ></script>
+
