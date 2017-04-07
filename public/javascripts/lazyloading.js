@@ -26,17 +26,17 @@ function lazyLoad() {
   for ( i = 0; i < pictureHeight.length; i++ ) {
     for ( i = 0; i < elements.length; i++ ) {
       if ( elements[ i ].getBoundingClientRect().top <= windowScroll + ( windowHeight - 700 ) ) {
-        if ( elements[ i ] === elements[ 0 ] && elements[ 0 ].style.backgroundImage === '' ) {
-          elements[ 0 ].style.backgroundImage = "url(/images/home-slides/ontdek.webp)";
-        }
-        if ( elements[ i ] === elements[ 1 ] && elements[ 1 ].style.backgroundImage === '' ) {
-          elements[ 1 ].style.backgroundImage = "url(/images/home-slides/agile.png)";
-        }
-        if ( elements[ i ] === elements[ 2 ] && elements[ 2 ].style.backgroundImage === '' ) {
-          elements[ 2 ].style.backgroundImage = "url(/images/home-slides/projecten.png)";
-        }
+        // if ( elements[ i ] === elements[ 0 ] && elements[ 0 ].style.backgroundImage === '' ) {
+        //   elements[ 0 ].style.backgroundImage = "url(/images/home-slides/ontdek.png)";
+        // }
+        // if ( elements[ i ] === elements[ 1 ] && elements[ 1 ].style.backgroundImage === '' ) {
+        //   elements[ 1 ].style.backgroundImage = "url(/images/home-slides/agile.png)";
+        // }
+        // if ( elements[ i ] === elements[ 2 ] && elements[ 2 ].style.backgroundImage === '' ) {
+        //   elements[ 2 ].style.backgroundImage = "url(/images/home-slides/projecten.png)";
+        // }
         if ( elements[ i ] === elements[ 3 ] && elements[ 3 ].style.backgroundImage === '' ) {
-          elements[ 3 ].style.backgroundImage = "url(/images/home-slides/chat.webp)";
+          elements[ 3 ].style.backgroundImage = "url(/images/home-slides/chat.png)";
         }
         if ( elements[ i ] === elements[ 4 ] && elements[ 4 ].src === 'http://localhost:3009/' ) {
           elements[ 4 ].src = "/images/home-slides/appstore.png";
@@ -49,15 +49,23 @@ function lazyLoad() {
         }
         if ( elements[ i ] === elements[ 7 ] && elements[ 7 ].src === 'http://localhost:3009/' ) {
           elements[ 7 ].src = "/images/projectpartners/logo-cb-achmea.png";
+          if ( elements[ 7 ].classList ) {
+            elements[ 7 ].classList.remove( "hide" );
+          }
           console.log( elements[ 7 ] );
         }
         if ( elements[ i ] === elements[ 8 ] && elements[ 8 ].src === 'http://localhost:3009/' ) {
           elements[ 8 ].src = "/images/projectpartners/logo-min-financien.png";
           console.log( elements[ 8 ] );
+          if ( elements[ 8 ].classList ) {
+            elements[ 8 ].classList.remove( "hide" );
+          }
         }
         if ( elements[ i ] === elements[ 9 ] && elements[ 9 ].src === 'http://localhost:3009/' ) {
           elements[ 9 ].src = "/images/projectpartners/logo-philadelphia.png";
-          console.log( elements[ 9 ].src );
+          if ( elements[ 9 ].classList ) {
+            elements[ 9 ].classList.remove( "hide" );
+          }
         }
       }
     }

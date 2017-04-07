@@ -3,17 +3,12 @@
     <!-- Header -->
     <header class="pu-header pu-header-desktop pu-header--is-transparent">
       <ul class="pu-list pu-list-horizontal pu-list-with-right-items">
-        <li class="pu-sub-logo">
-          <a href="/">
-            <h1>
-              <span>
-                Part-up
-              </span>
-              <figure class="pu-brand">
-              </figure>
-            </h1>
-          </a>
-        </li>
+      <li class="pu-sub-logo"><a href="/">
+        <h1>
+            <span>Part-up</span>
+            <figure class="pu-brand"></figure>
+        </h1>
+    </a></li>
         <li class="pu-sub-tribes">
           <a class="pu-button pu-button-header pu-button-header-text" href="/discover">
             Discover
@@ -58,8 +53,8 @@
     <article class="pu-page pu-home">
       <div class="pu-home__block pu-home__header pu-home__block--is-active">
         <div class="pu-home-header" data-header="">
-           {{!--  <picture>
-              <source media="(min-width: 47em)" srcset="images/home-slides/home-cover.webp 1024w 300h" type="image/webp">
+          {{!--   <picture style= "">
+              <source media="(min-width: 47em)" srcset="images/home-slides/home-cover4.jpg 1024w" type="image/webp">
                 <source media="(max-width: 30em)" srcset="images/home-slides/home-cover-mobile.jpg">
                 <img src="images/home-slides/home-cover.jpg" alt="part-up team">
               </picture> --}}
@@ -75,21 +70,15 @@
                   <p class="pu-home-header__text pu-paragraph-inverted">
                     Iedereen heeft uniek talent. Hoe help je dit talent het juiste werk te vinden? Part-up verbindt talent in tijdelijke teams. Binnen en tussen organisaties en communities.
                   </p>
-                  <div class="pu-home-calltoaction">
-                    <form class="pu-home-calltoaction__form" data-register-form="">
-                      <input class="pu-home-calltoaction__form__input pu-input" data-register-email="" placeholder="E-mailadres" type="email">
-                        <button class="pu-home-calltoaction__form__button pu-button-2" data-register-button="" type="button">
-                          Meld je gratis aan!
-                        </button>
-                      </input>
-                    </form>
-                    <p class="pu-home-calltoaction__description">
-                      Gebruikt jouw organisatie Part-up al?
-                      <a href="/discover">
-                        Vind jouw tribe.
-                      </a>
-                    </p>
-                  </div>
+   <div class="pu-home-calltoaction">
+        <form data-register-form="" class="pu-home-calltoaction__form">
+            <input data-register-email="" class="pu-home-calltoaction__form__input pu-input" type="email" placeholder="E-mailadres">
+            <button data-register-button="" class="pu-home-calltoaction__form__button pu-button-2" type="button">Meld je gratis aan!</button>
+        </form>
+        <p class="pu-home-calltoaction__description">Gebruikt jouw organisatie Part-up al? <a href="/discover">Vind jouw tribe.</a></p>
+    </div>
+
+
                   {{!--
                   <button class="pu-button-2 pu-button-2--secondary pu-home-header__button" data-what-is-partup="">
                     <span>
@@ -125,7 +114,13 @@
               <div class="pu-video">
 
 
-                <figure alt="" data-play="">
+                <figure alt="" data-play="" type="image/webp">
+{{!--                   <picture style= "">
+                    <source media="(min-width: 47em)" srcset="images/home-slides/home-cover4.jpg 1024w" type="image/webp">
+                      <source media="(max-width: 30em)" srcset="images/home-slides/home-cover-mobile.jpg">
+                      <img src="images/home-slides/home-cover.jpg" alt="part-up team">
+                    </picture> --}}
+
                 </figure>
               </div>
             </div>
@@ -229,8 +224,12 @@
             </div>
           </div> --}}
           <figure class="pu-home-carousel__image ontdek lazyload" data-carousel-slide-image="">
+              <noscript>
+                <img alt="logo-cb-achmea.png" src="images/home-slides/chat.png"/>
+              </noscript>
           </figure>
           <figure class="pu-home-carousel__image agile lazyload" data-carousel-slide-image="">
+
           </figure>
           <figure class="pu-home-carousel__image pu-home-carousel__image--is-active lazyload" data-carousel-slide-image="">
           </figure>
@@ -305,7 +304,10 @@
           </div>
           <div class="pu-home-wrap pu-home-products__tab">
             <div class="pu-home-block">
-              <figure class="pu-home-figure lazyload">
+              <figure class="pu-home-figure lazyload home-products">
+                <noscript>
+                  <img alt="home-products" src="/images/home-slides/home-products-solution-1-image.png"/>
+                </noscript>
               </figure>
             </div>
             <div class="pu-home-block pu-home-textblock pu-home-products__tab__content">
@@ -325,19 +327,19 @@
               </h3>
               <ul class="pu-home-textblock__horizontal-list pu-list pu-list-horizontal">
                 <li>
-                  <img class="lazyload"  alt="" src=""/>
+                  <img class="hide lazyload"  alt="" src=""/>
                 <noscript>
                   <img alt="logo-cb-achmea.png" src="images/projectpartners/logo-cb-achmea.png"/>
                 </noscript>
                 </li>
                 <li>
-                  <img class="lazyload" alt="" src=""/>
+                  <img class="hide lazyload" alt="" src=""/>
                 <noscript>
                   <img alt="logo-min-financien.png" src="images/projectpartners/logo-min-financien.png"/>
                 </noscript>
                 </li>
                 <li>
-                  <img class="lazyload" alt="logo-philadelphia" src=""/>
+                  <img class="hide lazyload" alt="logo-philadelphia" src=""/>
                 <noscript>
                   <img alt="logo-philadelphia" src="images/projectpartners/logo-philadelphia.png"/>
                 </noscript>
@@ -542,7 +544,7 @@
 <!-- Make the popup really empty after close -->
 <!-- Google Tag Manager -->
 
-<script>
+<script defer>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -552,7 +554,7 @@
 <!-- End Google Tag Manager -->
 <!-- Start Visual Website Optimizer Asynchronous Code -->
 
-<script type="text/javascript" src="javascripts/abtesting.js" defer ></script>
+
 <!-- End Visual Website Optimizer Asynchronous Code -->
 <noscript>
   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPQ3WW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
