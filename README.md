@@ -12,7 +12,7 @@ The goal of this project was to optimize the website of the open source project 
 - **DOMContentLoaded:** 3min
 - **Load:** 3.5min
 
-![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/not_optimized.jpg)
+![alt tag](https://github.com/soraya2/project-part-up/blob/master/screenshots/not_optimized.jpg)
 
 ## Js Opitmized
 Bundeld and uglified javascript
