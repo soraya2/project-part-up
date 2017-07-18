@@ -3,17 +3,12 @@
     <!-- Header -->
     <header class="pu-header pu-header-desktop pu-header--is-transparent">
       <ul class="pu-list pu-list-horizontal pu-list-with-right-items">
-        <li class="pu-sub-logo">
-          <a href="/">
-            <h1>
-              <span>
-                Part-up
-              </span>
-              <figure class="pu-brand">
-              </figure>
-            </h1>
-          </a>
-        </li>
+      <li class="pu-sub-logo"><a href="/">
+        <h1>
+            <span>Part-up</span>
+            <figure class="pu-brand"></figure>
+        </h1>
+    </a></li>
         <li class="pu-sub-tribes">
           <a class="pu-button pu-button-header pu-button-header-text" href="/discover">
             Discover
@@ -21,10 +16,10 @@
         </li>
         <li class="pu-sub-more pu-sub-more-loggedout pu-sub-align-right">
           <button class="pu-button pu-button-header pu-button-header-text" data-toggle-menu="menu">
-            <i class="picon-globe">
+            <i class="partup-font icon-globe">
             </i>
             Nederlands
-            <i class="picon-caret-slim-down">
+            <i class="partup-font icon-caret-slim-down">
             </i>
           </button>
         </li>
@@ -45,27 +40,19 @@
               <div class="pu-centerview__vertical-center">
                 <div class="pu-centerview__horizontal-center">
                   <h2 class="pu-title pu-title-serif pu-title-home">
-                    <span>
+                    <span id="titel">
                       Talent ontdekken en verbinden
                     </span>
                   </h2>
                   <p class="pu-home-header__text pu-paragraph-inverted">
                     Iedereen heeft uniek talent. Hoe help je dit talent het juiste werk te vinden? Part-up verbindt talent in tijdelijke teams. Binnen en tussen organisaties en communities.
                   </p>
-                  <div class="pu-home-calltoaction">
-                    <form class="pu-home-calltoaction__form" data-register-form="">
-                      <input class="pu-home-calltoaction__form__input pu-input" data-register-email="" placeholder="E-mailadres" type="email">
-                        <button class="pu-home-calltoaction__form__button pu-button-2" data-register-button="" type="button">
-                          Meld je gratis aan!
-                        </button>
-                      </input>
-                    </form>
-                    <p class="pu-home-calltoaction__description">
-                      Gebruikt jouw organisatie Part-up al?
-                      <a href="/discover">
-                        Vind jouw tribe.
-                      </a>
-                    </p>
+                 <div class="pu-home-calltoaction">
+                      <form data-register-form="" class="pu-home-calltoaction__form">
+                          <input data-register-email="" class="pu-home-calltoaction__form__input pu-input" type="email" placeholder="E-mailadres">
+                          <button data-register-button="" class="pu-home-calltoaction__form__button pu-button-2" type="button">Meld je gratis aan!</button>
+                      </form>
+                      <p class="pu-home-calltoaction__description">Gebruikt jouw organisatie Part-up al? <a href="/discover">Vind jouw tribe.</a></p>
                   </div>
                 </div>
               </div>
@@ -91,7 +78,11 @@
             </div>
             <div class="pu-home-block pu-home-intro__video">
               <div class="pu-video">
-                <figure alt="" data-play="" style="background-image:url(/images/closed_network_video.png);">
+
+
+                <figure alt="" data-play="" type="image/webp">
+
+
                 </figure>
               </div>
             </div>
@@ -138,35 +129,39 @@
       </div>
       <div class="pu-home__block pu-home__carousel" data-home-carousel="">
         <div class="pu-home-carousel" data-carousel="" style="height: 552px;">
-          <div class="pu-home-carousel__slide pu-home-carousel__slide--right" data-carousel-slide="">
+          <div class="pu-home-carousel__slide pu-home-carousel__slide--left" data-carousel-slide="">
             <div class="pu-home-wrap">
               <div class="pu-home-block pu-home-textblock">
                 <h2 class="pu-home-textblock__title pu-home-subtitle">
                   <span>
-                    Overzicht over projecten
+                    Ontdek tribes en part-ups
                   </span>
                 </h2>
                 <p class="pu-home-textblock__paragraph">
-                  Maak meedoen laagdrempelig. Ontdek welke teams er op dit moment actief zijn. Houd het overzicht. Heb je een goed idee? Start direct een eigen team.
+                  Vind passend werk. Kies interessante communities of organisaties (tribes) om lid van te worden. Ontvang persoonlijke suggesties voor tijdelijke teams (part-ups), waarin je met jouw talent kunt bijdragen.
                 </p>
               </div>
             </div>
           </div>
-          <figure class="pu-home-carousel__image" data-carousel-slide-image="" style="background-image: url('/images/home-slides/ontdek.png');">
+          <figure class="pu-home-carousel__image ontdek lazyload" data-carousel-slide-image="">
+              <noscript>
+                <img alt="logo-cb-achmea.png" src="images/home-slides/chat.png"/>
+              </noscript>
           </figure>
-          <figure class="pu-home-carousel__image" data-carousel-slide-image="" style="background-image: url('/images/home-slides/agile.png');">
+          <figure class="pu-home-carousel__image agile lazyload" data-carousel-slide-image="">
+
           </figure>
-          <figure class="pu-home-carousel__image pu-home-carousel__image--is-active" data-carousel-slide-image="" style="background-image: url('/images/home-slides/chat.png');">
+          <figure class="pu-home-carousel__image pu-home-carousel__image--is-active lazyload" data-carousel-slide-image="">
           </figure>
-          <figure class="pu-home-carousel__image" data-carousel-slide-image="" style="background-image: url('/images/home-slides/projecten.png');">
+          <figure class="pu-home-carousel__image projecten lazyload" data-carousel-slide-image="" >
           </figure>
           <div class="pu-home-carousel__buttons">
             <button class="pu-home-carousel__buttons__button" data-carousel-arrow-left="">
-              <i class="picon-caret-slim-left">
+              <i class="partup-font icon-caret-slim-left">
               </i>
             </button>
             <button class="pu-home-carousel__buttons__button" data-carousel-arrow-right="">
-              <i class="picon-caret-slim-right">
+              <i class="partup-font icon-caret-slim-right">
               </i>
             </button>
           </div>
@@ -182,10 +177,17 @@
           </ul>
           <div class="pu-home-carousel__appstore-buttons">
             <a class="pu-home-carousel__appstore-buttons__button" href="https://itunes.apple.com/nl/app/part-up/id1113368434?mt=8" target="_blank">
-              <img alt="appstore" src="/images/home-slides/appstore.png"/>
+
+            <img alt="" class= "lazyload" src=""/>
+            <noscript>
+              <img alt="appstore" class= "lazyload" src="/images/home-slides/appstore.png"/>
+            </noscript>
             </a>
             <a class="pu-home-carousel__appstore-buttons__button" href="https://play.google.com/store/apps/details?id=com.partup.app&hl=nl" target="_blank">
+                <img alt="" class= "lazyload" src=""/>
+            <noscript>
               <img alt="playstore" src="/images/home-slides/playstore.png"/>
+            </noscript>
             </a>
           </div>
         </div>
@@ -222,7 +224,10 @@
           </div>
           <div class="pu-home-wrap pu-home-products__tab">
             <div class="pu-home-block">
-              <figure class="pu-home-figure" style="background-image: url('//images.part-up.com/website/home-products-solution-1-image.png');">
+              <figure class="pu-home-figure lazyload home-products">
+                <noscript>
+                  <img alt="home-products" src="/images/home-slides/home-products-solution-1-image.png"/>
+                </noscript>
               </figure>
             </div>
             <div class="pu-home-block pu-home-textblock pu-home-products__tab__content">
@@ -242,13 +247,22 @@
               </h3>
               <ul class="pu-home-textblock__horizontal-list pu-list pu-list-horizontal">
                 <li>
-                  <img alt="" src="//images.part-up.com/website/logo-cb-achmea.png"/>
+                  <img class="hide lazyload"  alt="" src=""/>
+                <noscript>
+                  <img alt="logo-cb-achmea.png" src="images/projectpartners/logo-cb-achmea.png"/>
+                </noscript>
                 </li>
                 <li>
-                  <img alt="" src="//images.part-up.com/website/logo-min-financien.png"/>
+                  <img class="hide lazyload" alt="" src=""/>
+                <noscript>
+                  <img alt="logo-min-financien.png" src="images/projectpartners/logo-min-financien.png"/>
+                </noscript>
                 </li>
                 <li>
-                  <img alt="" src="//images.part-up.com/website/logo-philadelphia.png"/>
+                  <img class="hide lazyload" alt="logo-philadelphia" src=""/>
+                <noscript>
+                  <img alt="logo-philadelphia" src="images/projectpartners/logo-philadelphia.png"/>
+                </noscript>
                 </li>
               </ul>
             </div>
@@ -367,25 +381,25 @@
               <ul class="second pu-list pu-list-horizontal pu-list-with-right-items pu-home-links pu-home-footer__socials__links">
                 <li class="pu-sub-align-right pu-home-links__icon">
                   <a href="https://www.facebook.com/partupcom" target="_blank">
-                    <i class="picon-facebook">
+                    <i class="partup-font icon-facebook">
                     </i>
                   </a>
                 </li>
                 <li class="pu-sub-align-right pu-home-links__icon">
                   <a href="https://twitter.com/partupnl" target="_blank">
-                    <i class="picon-twitter">
+                    <i class="partup-font icon-twitter">
                     </i>
                   </a>
                 </li>
                 <li class="pu-sub-align-right pu-home-links__icon">
                   <a href="https://www.linkedin.com/company/part-up" target="_blank">
-                    <i class="picon-linkedin">
+                    <i class="partup-font icon-linkedin">
                     </i>
                   </a>
                 </li>
                 <li class="pu-sub-align-right pu-home-links__icon">
                   <a href="https://www.instagram.com/partupcom/" target="_blank">
-                    <i class="picon-instagram">
+                    <i class="partup-font icon-instagram">
                     </i>
                   </a>
                 </li>
@@ -404,7 +418,7 @@
       <h4>
       </h4>
       <button class="pu-button pu-button-close" data-dismiss="">
-        <i class="picon-times">
+        <i class="partup-font icon-times">
         </i>
       </button>
     </header>
@@ -436,7 +450,7 @@
   <section>
     <article class="pu-connectionstatus">
       <p>
-        <i class="picon-warning">
+        <i class="partup-font icon-warning">
         </i>
         <span class="pu-sub-message">
           Verbonden
@@ -447,28 +461,4 @@
     </article>
   </section>
 </section>
-<!-- Make the popup really empty after close -->
-<!-- Google Tag Manager -->
-<noscript>
-  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPQ3WW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PPQ3WW');
-</script>
-<!-- End Google Tag Manager -->
-<!-- Start Visual Website Optimizer Asynchronous Code -->
-<script type="text/javascript">
-  var _vwo_clicks=20; //this will track first 20 clicks: https://vwo.com/knowledge/increase-clicks-for-heatmap/
-        var _vwo_code=(function(){
-        var account_id=255323,
-        settings_tolerance=3000,
-        library_tolerance=3500,
-        use_existing_jquery=false,
-        // DO NOT EDIT BELOW THIS LINE
-        f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
-</script>
-<!-- End Visual Website Optimizer Asynchronous Code -->
+
