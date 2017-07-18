@@ -47,7 +47,7 @@ resized, compressed images and added webp format
 
 
 ## Final Google Pagespeed Insight
-![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/total.jpg)
+![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_end.jpg)
 
 
 ## Results compared with first test
