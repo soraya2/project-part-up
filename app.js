@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require('path');
+var http = require('http');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -7,13 +8,16 @@ var bodyParser = require('body-parser');
 var sassMiddleware = require('node-sass-middleware');
 var compress = require('compression');
 var hbs = require('express-handlebars');
+var app = express();
+var port = process.env.PORT || 3006;
+var server = http.createServer(app);
+var env = require('dotenv').config();
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-var app = express();
 app.use(compress());
-
+app.set('port', port);
 // view engine setup
 
 app.engine('hbs', hbs({extname:'hbs', defaultLayout: 'main', layoutDir: __dirname + 'views/layout'}));
@@ -53,6 +57,14 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+
+
+
+server.listen(app.get('port'), function() {
+    console.log("app started on http://localhost:"+ port);
+
 });
 
 module.exports = app;
