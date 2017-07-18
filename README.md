@@ -52,9 +52,14 @@ resized, compressed images and added webp format
 
 ## Results compared with first test
 
-### Start                           End
-- **Requests:** 38                 | **Requests:** 24
-- **Transfered:** 3.3MB            | **Transfered:** 380kb
-- **DOMContentLoaded:** 3min       | **DOMContentLoaded:** 6.78s
-- **Total load:** 3.5min           | **Total load:** 11,46s
+### Start                     
+- **Requests:** 38          
+- **Transfered:** 3.3MB           
+- **DOMContentLoaded:** 3min       
+- **Total load:** 3.5min    
 
+### End                           
+- **Requests:** 24               
+- **Transfered:** 380kb
+- **DOMContentLoaded:** 6.78s
+- **Total load:** 11,46s
