@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "expose": "ngrok http 3009",
+    "expose": "ngrok http 3006",
     "start": "node app.js"
   },
   "dependencies": {
@@ -18,12 +18,12 @@
     "morgan": "~1.8.1",
     "ngrok": "^2.2.6",
     "node-sass-middleware": "0.9.8",
-    "serve-favicon": "~2.4.2",
-    "tinify": "^1.5.0"
+    "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
     "critical": "^0.8.4",
     "debug": "~2.6.3",
-    "ngrok": "^2.2.6"
+    "ngrok": "^2.2.6",
+    "tinify": "^1.5.0"
   }
 }
