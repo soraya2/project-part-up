@@ -2,10 +2,10 @@
 # Optimisation Audit
 The goal of this project was to optimize the website of the open source project part-up. I optimized the website using techniques like critical CSS, uglyfying an concatenated javascript, img optimization, lazy loading and async font loading with the css font api.
 
-## internet speed
+## Internet speed
 2G (150ms, 300kb/s, 150kb/s)
 
-## no optimisation
+## No optimisation
 
 - **Requests:** 42
 - **Transfered:** 6.3MB
@@ -14,7 +14,7 @@ The goal of this project was to optimize the website of the open source project 
 
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/not_optimized.jpg)
 
-## js Opitmized
+## Js Opitmized
 Bundeld and uglified javascript
 
 - **Requests:** 20
@@ -24,7 +24,7 @@ Bundeld and uglified javascript
 
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/optimized-js.jpg)
 
-## optimized images
+## Optimized images
 resized, compressed images and added webp format
 
 - **Requests:** 20
@@ -34,9 +34,7 @@ resized, compressed images and added webp format
 
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_imgoptimize.jpg)
 
-
 ## Total
-
 - **Requests:** 20
 - **Transfered:** 2.9MB
 - **DOMContentLoaded:** 6.5s
@@ -44,7 +42,7 @@ resized, compressed images and added webp format
 
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/total.jpg)
 
-## before Google Pagespeed Insight
+## Before Google Pagespeed Insight
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_start.jpg)
 
 
