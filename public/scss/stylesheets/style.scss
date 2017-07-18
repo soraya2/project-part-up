@@ -14,7 +14,7 @@
     overflow: hidden;
 }
 
-.picon-archive, .picon-arrow-down, .picon-arrow-left, .picon-arrow-right, .picon-arrow-up, .picon-bell, .picon-calendar-check, .picon-caret-down, .picon-caret-left, .picon-caret-right, .picon-caret-slim-down, .picon-caret-slim-left, .picon-caret-slim-right, .picon-caret-slim-up, .picon-caret-up, .picon-chart, .picon-chat, .picon-check, .picon-checkbox, .picon-cog, .picon-crossroad, .picon-documents, .picon-download, .picon-drive, .picon-dropbox, .picon-facebook, .picon-globe, .picon-info-2, .picon-info, .picon-instagram, .picon-linkedin, .picon-location, .picon-lock-closed, .picon-lock-open, .picon-megaphone, .picon-message, .picon-monitor, .picon-monkeytail, .picon-network, .picon-pencil, .picon-person-plus, .picon-photo, .picon-plus, .picon-profile-card, .picon-question, .picon-search, .picon-share, .picon-show, .picon-times, .picon-twitter, .picon-unarchive, .picon-upload, .picon-video, .picon-warning {
+.loaded{
   font-family: 'partup-icons';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -324,6 +324,13 @@
 //   font-style: normal;
 // }
 
+// @font-face {
+//   font-family: 'partup-icons';
+//   src: url("/fonts/icons/partup-icons.woff2?v=1481721394166"), url("/fonts/icons/partup-icons.woff?v=1481721394166"), url("/fonts/icons/partup-icons.ttf?v=1481721394166");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -349,6 +356,7 @@ body {
   overflow-y: auto;
   margin: 0;
   width: 100vw;
+  font-family: Helvetica, sans-serif;
 }
 
 body #pu-notifycontainer {
@@ -370,7 +378,6 @@ body.pu-state-dropdownopen {
 // body.pu-prevent-scrolling {
 //   overflow: hidden; }
 body {
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -390,7 +397,7 @@ h1 .pu-spinner-small, h2 .pu-spinner-small, h3 .pu-spinner-small, h4 .pu-spinner
 }
 
 h1-serif, h2-serif, h3-serif, h4-serif, h5-serif, h6-serif, .pu-title-serif {
-  font-family: "merriweather", serif;
+  font-family: serif;
 }
 
 h1-modal, h2-modal, h3-modal, h4-modal, h5-modal, h6-modal, .pu-title-modal {
@@ -1134,7 +1141,6 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
   top: 24px;
   padding-left: 40px;
   font-size: 12px;
-  font-family: "proxima-nova", sans-serif;
   letter-spacing: 0.6px;
   color: #494949;
 }
@@ -1197,7 +1203,6 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
   position: relative;
   padding-left: 60px;
   font-size: 12px;
-  font-family: "proxima-nova", sans-serif;
   letter-spacing: 0.6px;
   color: #494949;
 }
@@ -2178,7 +2183,6 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
   border-radius: 5px;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -2901,7 +2905,6 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
 }
 
 .datepicker {
-  font-family: "proxima-nova", sans-serif;
   padding: 0;
   border: 0 !important;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
@@ -2952,7 +2955,7 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
   -webkit-border-radius: 0;
   border-radius: 0;
   color: #fff;
-  font-family: "proxima-nova", sans-serif;
+
   font-size: 16px;
   width: 40px;
   font-weight: 600;
@@ -2997,7 +3000,7 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
 }
 
 .datepicker table tbody tr td span.year, .datepicker table tbody tr td span.month {
-  font-family: "proxima-nova", sans-serif;
+
   font-weight: 600;
   font-size: 16px;
   color: #494949;
@@ -3028,7 +3031,7 @@ p-subtle a:hover, p-subtle a:active, p-subtle a:focus, .pu-paragraph-subtle a:ho
   -o-transition: background-color 0.15s;
   transition: background-color 0.15s;
   background-image: none !important;
-  font-family: "proxima-nova", sans-serif;
+
   font-weight: 600;
   font-size: 16px;
   color: #494949;
@@ -3568,7 +3571,6 @@ code {
   -webkit-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
-  font-family: "proxima-nova", sans-serif;
   font-weight: 500;
 }
 
@@ -6618,7 +6620,6 @@ code {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -8966,7 +8967,6 @@ input.pu-fileinput[disabled] {
   box-shadow: inset 0 0 0 1px transparent;
   background-color: #57c0c9;
   border: none;
-  font-family: "proxima-nova", sans-serif;
   font-size: 15px;
   line-height: 1em;
   text-decoration: none;
@@ -9773,7 +9773,6 @@ input.pu-fileinput[disabled] {
   background-color: #fff;
   font-size: 16px;
   text-align: left;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .scrolling .pu-extended-hover__extend {
@@ -9893,7 +9892,6 @@ input.pu-fileinput[disabled] {
 }
 
 .pu-explorer .pu-sub-notfound {
-  font-family: "proxima-nova", sans-serif;
   font-size: 40px;
   color: #356c70;
   font-weight: 700;
@@ -11158,7 +11156,6 @@ li a.pu-external-url:hover, p a.pu-external-url:hover, .pu-external-url:hover {
   font-weight: normal;
   margin: 0 auto;
   width: 85%;
-  font-family: "proxima-nova", sans-serif;
   line-height: 26px;
 }
 
@@ -12120,7 +12117,6 @@ li a.pu-external-url:hover, p a.pu-external-url:hover, .pu-external-url:hover {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -12186,7 +12182,6 @@ li a.pu-external-url:hover, p a.pu-external-url:hover, .pu-external-url:hover {
   outline: none;
   border: 0;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -12628,7 +12623,6 @@ li a.pu-external-url:hover, p a.pu-external-url:hover, .pu-external-url:hover {
   vertical-align: top;
   color: #999;
   font-weight: 700;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .pu-link {
@@ -13000,7 +12994,6 @@ li a.pu-external-url:hover, p a.pu-external-url:hover, .pu-external-url:hover {
   background-color: transparent;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .pu-list-users li a {
@@ -14302,7 +14295,6 @@ body.bender-animating {
 
 .pu-notification a, .pu-notification button {
   font-size: 15px;
-  font-family: "proxima-nova", sans-serif;
   text-decoration: none;
   padding: 20px 20px 10px;
   display: block;
@@ -15195,7 +15187,6 @@ body.bender-animating {
 
 .pu-partuptile section p {
   font-size: 14px;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .pu-partuptile .pu-sub-partup-tags {
@@ -15320,7 +15311,6 @@ body.bender-animating {
 .pu-partuptile footer .pu-network-strip {
   background-color: #eee;
   font-size: 14px;
-  font-family: "proxima-nova", sans-serif;
   color: #494949;
   font-weight: 600;
 }
@@ -16479,7 +16469,6 @@ body.bender-animating {
 
 .pu-resulttile section p {
   font-size: 14px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
 }
 
@@ -18123,7 +18112,6 @@ body.bender-animating {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -18195,7 +18183,6 @@ body.bender-animating {
   text-overflow: inherit;
   margin: 10px 10px 5px 0;
   line-height: normal;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .pu-sub-input-tags>.autoform-tags-field .bootstrap-tagsinput>input::-webkit-input-placeholder {
@@ -18313,7 +18300,6 @@ body.bender-animating {
   position: relative;
   display: block;
   font-size: 12px !important;
-  font-family: "proxima-nova", sans-serif;
   letter-spacing: 0.6px;
   text-align: center;
   z-index: 0;
@@ -18624,7 +18610,6 @@ body.bender-animating {
   width: calc(50%);
   font-size: 14px;
   padding: 10px 20px;
-  font-family: "proxima-nova", sans-serif;
   outline: none;
   font-weight: bold;
   color: #434343;
@@ -18870,7 +18855,6 @@ body.bender-animating {
   margin-left: 15px;
   color: #7f7f7f;
   font-size: 12px;
-  font-family: "proxima-nova", sans-serif;
   line-height: 39px;
   letter-spacing: 0.6px;
 }
@@ -19252,7 +19236,6 @@ body.bender-animating {
 .pu-upper__label {
   background-color: #eee;
   font-size: 14px;
-  font-family: "proxima-nova", sans-serif;
   color: rgba(73, 73, 73, 0.5);
   font-weight: 600;
   display: block;
@@ -19442,7 +19425,6 @@ body.bender-animating {
   width: 100%;
   border: 0;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
 }
 
 .pu-wysiwyg-editor {
@@ -20052,7 +20034,6 @@ body.bender-animating {
   border-radius: 4px;
   border: 2px solid #57c0c9;
   color: #fff;
-  font-family: "proxima-nova", sans-serif;
   font-size: 16px;
   font-weight: bold;
   height: 42px;
@@ -20238,7 +20219,6 @@ body.bender-animating {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -21560,7 +21540,6 @@ body.bender-animating {
   border: 0;
   outline: 0;
   background-color: transparent;
-  font-family: "proxima-nova", sans-serif;
   font-weight: 600;
   margin-left: 15px;
   margin-right: 15px;
@@ -22506,7 +22485,6 @@ body.bender-animating {
   border-radius: 5px;
   outline: none;
   font-size: 16px;
-  font-family: "proxima-nova", sans-serif;
   color: #292929;
   font-weight: normal;
   text-decoration: none;
@@ -23216,9 +23194,6 @@ body.bender-animating {
   margin-top: 20em;
 }
 
-@font-face {
-  font-family: 'partup-icons';
-  src: url("/fonts/icons/partup-icons.woff2?v=1481721394166"), url("/fonts/icons/partup-icons.woff?v=1481721394166"), url("/fonts/icons/partup-icons.ttf?v=1481721394166");
-  font-weight: normal;
-  font-style: normal;
+.proximaNova-loaded {
+  font-family: 'proxima-nova', Helvetica, sans-serif;
 }
