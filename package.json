@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "expose": "ngrok http 3009",
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2"
@@ -21,12 +22,6 @@
     "hbs": "~4.0.1",
     "ngrok": "^2.2.6",
     "node-sass-middleware": "0.9.8",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "hbs": "~4.0.1",
-    "ngrok": "^2.2.6",
-    "node-sass-middleware": "0.9.8",
     "tinify": "^1.5.0"
-
   }
 }
