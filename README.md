@@ -1,6 +1,6 @@
 
 # Optimisation Audit
-The goal of this project was to optimize the website of the open source project part-up. I optimized the website using techniques like critical CSS, uglyfying an concatenated javascript, img optimization, lazy loading and async font loading with the css font api.
+The goal of this project was to optimize the website of the open source project part-up. I optimized the website using techniques like critical CSS, uglify and concatenated javascript, img optimization, lazy loading and async font loading with the css font api.
 
 ## Internet speed
 2G (150ms, 300kb/s, 150kb/s)
