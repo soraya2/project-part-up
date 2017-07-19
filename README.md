@@ -40,8 +40,7 @@ resized, compressed images and added webp format
 - **DOMContentLoaded:** 6.5s
 - **Load:** 10.56s
 
-![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/total.jpg)
-
+![alt tag](https://github.com/soraya2/project-part-up/blob/master/screenshots/total.jpg)
 ## Before Google Pagespeed Insight
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_start.jpg)
 
