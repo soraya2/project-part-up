@@ -35,10 +35,10 @@ resized, compressed images and added webp format
 ![alt tag](https://github.com/soraya2/rijksmuseumapp_/blob/master/screenshots/performance_imgoptimize.jpg)
 
 ## Total
-- **Requests:** 20
-- **Transfered:** 2.9MB
-- **DOMContentLoaded:** 6.5s
-- **Load:** 10.56s
+- **Requests:** 24
+- **Transfered:** 484kb
+- **DOMContentLoaded:** 6.78s
+- **Load:** 11.46s
 
 ![alt tag](https://github.com/soraya2/project-part-up/blob/master/screenshots/total.jpg)
 ## Before Google Pagespeed Insight
@@ -59,6 +59,6 @@ resized, compressed images and added webp format
 
 ### End                           
 - **Requests:** 24               
-- **Transfered:** 380kb
+- **Transfered:** 484kb
 - **DOMContentLoaded:** 6.78s
 - **Total load:** 11,46s
